@@ -32,6 +32,6 @@
 
 4. This will require effort from both of us and will test our understanding of java. We plan to create the intial project and server side code the week of 03/11/24,
    followed by chat server the week after (Week of 3/18/24), and then the user interface the week of 03/25/24. The remaining time will be troubleshooting and corrections,
-   as well as, creating a presentation up to the April 10th due date for the presentation.
+   as well as, creating a presentation up until the April 10th due date.
 
    
