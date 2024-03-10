@@ -1,5 +1,5 @@
 1. Project Name - Java Chat App
-   Team Name - 
+   Team Name - Java Chat
    Team Members - Joe O'Brien and Ricky Hodge
 
 2. We will be building an application in java that allows two users to chat with each other. We want to build it becasue it has real world application and will test our
