@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx-swt.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx.base.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx.controls.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx.fxml.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx.graphics.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx.media.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx.swing.jar",
+        "/Users/obrijl22/Desktop/javafx-sdk-22/lib/javafx.web.jar"
+    ]
+}
