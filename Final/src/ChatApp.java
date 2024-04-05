@@ -29,7 +29,7 @@ public class ChatApp extends Application {
         Button user1SendButton = new Button("Send");
         Button user2SendButton = new Button("Send");
 
-        // Dialogs for entering usernames
+        // Prompts user 1 for username
         TextInputDialog user1Dialog = new TextInputDialog();
         user1Dialog.setTitle("User 1 Username");
         user1Dialog.setHeaderText(null);
@@ -38,6 +38,7 @@ public class ChatApp extends Application {
             user1Name = name.trim();
         });
 
+         // Prompts user 2 for username
         TextInputDialog user2Dialog = new TextInputDialog();
         user2Dialog.setTitle("User 2 Username");
         user2Dialog.setHeaderText(null);
