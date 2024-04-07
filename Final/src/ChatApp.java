@@ -6,7 +6,6 @@ import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -31,18 +30,18 @@ public class ChatApp extends Application {
 
         // Prompts user 1 for username
         TextInputDialog user1Dialog = new TextInputDialog();
-        user1Dialog.setTitle("User 1 Username");
+        user1Dialog.setTitle("Hello User 1!");
         user1Dialog.setHeaderText(null);
-        user1Dialog.setContentText("User 1, Please enter your username:");
+        user1Dialog.setContentText("Please enter your username:");
         user1Dialog.showAndWait().ifPresent(name -> {
             user1Name = name.trim();
         });
 
          // Prompts user 2 for username
         TextInputDialog user2Dialog = new TextInputDialog();
-        user2Dialog.setTitle("User 2 Username");
+        user2Dialog.setTitle("Hello User 2!");
         user2Dialog.setHeaderText(null);
-        user2Dialog.setContentText("User 2, Please enter your username:");
+        user2Dialog.setContentText("Please enter your username:");
         user2Dialog.showAndWait().ifPresent(name -> {
             user2Name = name.trim();
         });
@@ -57,7 +56,7 @@ public class ChatApp extends Application {
         root.setCenter(chatContainer);
 
         primaryStage.setTitle("Chat App");
-        primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.setScene(new Scene(root, 600, 300));
         primaryStage.show();
     }
 
