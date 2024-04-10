@@ -6,29 +6,24 @@
    knowledge with java code. It will be used for communication between two users.
 
 3. Diagram
----------------------------------------
-|           Java Chat App             |
----------------------------------------
-|                                     |
----------------------------------------
-             /\                   /\
-             ||                   ||
----------------------------------------
-|          Client Side              |
----------------------------------------
-|        + GUI                      |
-|        + NetworkManager           |
-|        + MessageHandler           |
----------------------------------------
-              /\\               /\\
-              ||                ||
----------------------------------------
-|         Server Side              |
----------------------------------------
-|        + Server                   |
-|        + Database                 |
-|        + MessageHandler           |
----------------------------------------
+------------------------------------
+|             ChatApp              |
+------------------------------------
+| - chatArea: TextArea             |
+| - user1InputField: TextField     |
+| - user2InputField: TextField     |
+| - user1Name: String              |
+| - user2Name: String              |
+------------------------------------
+| + start(primaryStage: Stage): void|
+| - sendMessage(username: String,  |
+|   message: String): void         |
+| - appendMessage(message: String):|
+|   void                           |
+| - getCurrentTime(): String       |
+| + main(args: String[]): void     |
+------------------------------------
+
 
 4. This will require effort from both of us and will test our understanding of java. We plan to create the intial project and server side code the week of 03/11/24,
    followed by chat server the week after (Week of 3/18/24), and then the user interface the week of 03/25/24. The remaining time will be troubleshooting and corrections,
